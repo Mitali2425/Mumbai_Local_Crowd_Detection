@@ -83,13 +83,22 @@ Mumbai_Local_Crowd_Detection_Project/
 *(Put screenshots inside the `screenshots/` folder)*
 
 - **Train Search UI**  
-  ![Train Search](screenshots/train_search.png)
+  ![Train Search](screenshots/Screenshot%202025-09-08%20181854.png)
+
+- **Search Results UI**   
+  ![Coach View](screenshots/Screenshot%202025-09-08%20181907.png)
 
 - **Coach Occupancy Visualization**  
-  ![Coach View](screenshots/coach_view.png)
+  ![Coach View](screenshots/Screenshot%202025-09-08%20181917.png)
 
-- **YOLOv8 Detection Example**  
-  ![Detection](screenshots/detection.png)
+- **Live Update of Results**    
+  ![Additional UI](screenshots/Screenshot%202025-09-08%20181941.png)
+
+- **Annotated Result Example 1**  
+  ![Annotated Image](screenshots/image_19.jpg)
+
+- **Annotated Result Example 2**  
+  ![Annotated Image](screenshots/image_28.jpg)
 
 ---
 
