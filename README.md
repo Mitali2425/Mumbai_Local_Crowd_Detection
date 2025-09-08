@@ -80,8 +80,6 @@ Mumbai_Local_Crowd_Detection_Project/
 
 ## 📸 Screenshots
 
-*(Put screenshots inside the `screenshots/` folder)*
-
 - **Train Search UI**  
   ![Train Search](screenshots/Screenshot%202025-09-08%20181854.png)
 
