@@ -1,0 +1,320 @@
+[
+  {
+    "train_id": 1,
+    "code": "98122",
+    "time": "02:05 PM",
+    "src": "Panvel",
+    "dst": "CSMT",
+    "line": "Harbour Line",
+    "coaches": [
+      {
+        "index": 1,
+        "image": "image_30.jpeg",
+        "count": 3,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 4.3
+      },
+      {
+        "index": 2,
+        "image": "image_7.jpeg",
+        "count": 0,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 0.0
+      },
+      {
+        "index": 3,
+        "image": "image_39.jpeg",
+        "count": 1,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 1.4
+      },
+      {
+        "index": 4,
+        "image": "image_23.jpeg",
+        "count": 12,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 17.1
+      },
+      {
+        "index": 5,
+        "image": "image_55.jpeg",
+        "count": 0,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 0.0
+      },
+      {
+        "index": 6,
+        "image": "image_46.jpeg",
+        "count": 0,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 0.0
+      },
+      {
+        "index": 7,
+        "image": "image_3.jpeg",
+        "count": 5,
+        "status": "Moderate",
+        "capacity": 70,
+        "occupancy_percent": 7.1
+      },
+      {
+        "index": 8,
+        "image": "image_19.jpeg",
+        "count": 4,
+        "status": "Moderate",
+        "capacity": 70,
+        "occupancy_percent": 5.7
+      },
+      {
+        "index": 9,
+        "image": "image_17.jpeg",
+        "count": 5,
+        "status": "Moderate",
+        "capacity": 70,
+        "occupancy_percent": 7.1
+      },
+      {
+        "index": 10,
+        "image": "image_2.jpeg",
+        "count": 6,
+        "status": "Moderate",
+        "capacity": 70,
+        "occupancy_percent": 8.6
+      },
+      {
+        "index": 11,
+        "image": "image_55.jpeg",
+        "count": 0,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 0.0
+      },
+      {
+        "index": 12,
+        "image": "image_10.jpeg",
+        "count": 2,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 2.9
+      }
+    ]
+  },
+  {
+    "train_id": 2,
+    "code": "98124",
+    "time": "02:12 PM",
+    "src": "Panvel",
+    "dst": "Vadala",
+    "line": "Harbour Line",
+    "coaches": [
+      {
+        "index": 1,
+        "image": "image_1.jpeg",
+        "count": 8,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 11.4
+      },
+      {
+        "index": 2,
+        "image": "image_38.jpeg",
+        "count": 0,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 0.0
+      },
+      {
+        "index": 3,
+        "image": "image_18.jpeg",
+        "count": 8,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 11.4
+      },
+      {
+        "index": 4,
+        "image": "image_44.jpeg",
+        "count": 3,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 4.3
+      },
+      {
+        "index": 5,
+        "image": "image_15.jpeg",
+        "count": 5,
+        "status": "Moderate",
+        "capacity": 70,
+        "occupancy_percent": 7.1
+      },
+      {
+        "index": 6,
+        "image": "image_55.jpeg",
+        "count": 0,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 0.0
+      },
+      {
+        "index": 7,
+        "image": "image_33.jpeg",
+        "count": 18,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 25.7
+      },
+      {
+        "index": 8,
+        "image": "image_8.jpeg",
+        "count": 13,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 18.6
+      },
+      {
+        "index": 9,
+        "image": "image_13.jpeg",
+        "count": 8,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 11.4
+      },
+      {
+        "index": 10,
+        "image": "image_39.jpeg",
+        "count": 1,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 1.4
+      },
+      {
+        "index": 11,
+        "image": "image_26.jpeg",
+        "count": 10,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 14.3
+      },
+      {
+        "index": 12,
+        "image": "image_14.jpeg",
+        "count": 13,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 18.6
+      }
+    ]
+  },
+  {
+    "train_id": 3,
+    "code": "98126",
+    "time": "02:18 PM",
+    "src": "Panvel",
+    "dst": "CSMT",
+    "line": "Harbour Line",
+    "coaches": [
+      {
+        "index": 1,
+        "image": "image_39.jpeg",
+        "count": 1,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 1.4
+      },
+      {
+        "index": 2,
+        "image": "image_38.jpeg",
+        "count": 0,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 0.0
+      },
+      {
+        "index": 3,
+        "image": "image_7.jpeg",
+        "count": 0,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 0.0
+      },
+      {
+        "index": 4,
+        "image": "image_54.jpeg",
+        "count": 1,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 1.4
+      },
+      {
+        "index": 5,
+        "image": "image_28.jpeg",
+        "count": 16,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 22.9
+      },
+      {
+        "index": 6,
+        "image": "image_11.jpeg",
+        "count": 8,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 11.4
+      },
+      {
+        "index": 7,
+        "image": "image_26.jpeg",
+        "count": 10,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 14.3
+      },
+      {
+        "index": 8,
+        "image": "image_31.jpeg",
+        "count": 13,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 18.6
+      },
+      {
+        "index": 9,
+        "image": "image_4.jpeg",
+        "count": 15,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 21.4
+      },
+      {
+        "index": 10,
+        "image": "image_56.jpeg",
+        "count": 1,
+        "status": "Empty",
+        "capacity": 70,
+        "occupancy_percent": 1.4
+      },
+      {
+        "index": 11,
+        "image": "image_23.jpeg",
+        "count": 12,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 17.1
+      },
+      {
+        "index": 12,
+        "image": "image_18.jpeg",
+        "count": 8,
+        "status": "Crowded",
+        "capacity": 70,
+        "occupancy_percent": 11.4
+      }
+    ]
+  }
+]

@@ -1,0 +1,180 @@
+/* style.css - clean UI */
+:root{
+  --bg:#f4f7fb;
+  --card:#ffffff;
+  --accent:#2d9cdb;
+  --muted:#6b7280;
+}
+*{box-sizing:border-box}
+body{
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  margin:0;
+  background:var(--bg);
+  color:#111827;
+  padding:22px;
+  text-align:center;
+}
+.top{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  align-items:center;
+  margin-bottom:12px;
+}
+.title{font-size:26px;font-weight:700}
+.live{color:#ef4444;font-weight:700;font-size:14px}
+
+.search{margin:18px 0}
+.search input{
+  padding:10px 12px;
+  margin-right:8px;
+  border-radius:8px;
+  border:1px solid #e6eef7;
+  width:200px;
+}
+.search button{
+  padding:10px 14px;
+  border-radius:8px;
+  border:0;
+  background:var(--accent);
+  color:white;
+  cursor:pointer;
+  font-weight:600;
+}
+.search button:hover{opacity:0.95}
+
+/* train list */
+.train-list{margin:12px auto; display:flex; gap:12px; flex-wrap:wrap; justify-content:center}
+.train-item{
+  background:var(--card);
+  min-width:220px;
+  padding:12px;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(13,38,59,0.06);
+  cursor:pointer;
+  text-align:left;
+}
+.train-item strong{display:block;font-size:16px}
+.train-item .line{color:var(--muted); font-size:13px; margin-top:6px}
+
+/* crowd display */
+.crowd-display{max-width:1100px;margin:18px auto;text-align:left}
+.crowd-display h2{margin:0 0 12px 0;padding-left:6px}
+
+/* controls */
+.controls{max-width:1100px;margin:12px auto;text-align:left;padding-left:6px}
+.controls button{padding:8px 12px;border-radius:8px;border:0;background:#111827;color:#fff;cursor:pointer}
+.controls select{padding:6px;border-radius:6px;border:1px solid #e6eef7}
+
+/* small screen tweaks */
+@media (max-width:520px){
+  .search input{width:120px;margin-bottom:8px}
+  .train-item{min-width:160px}
+}
+
+/* ===== TRAIN VISUAL BLOCK ===== */
+
+/* Big white card that holds the engine + coaches row */
+.train-visual{
+  max-width:1100px;
+  margin:18px auto;
+  background:var(--card);
+  border-radius:16px;
+  box-shadow:0 8px 24px rgba(13,38,59,0.08);
+  padding:16px;
+}
+
+/* Row still scrolls horizontally, but aligns nicely inside */
+.train-visual .coach-row{
+  display:flex;
+  align-items:flex-start;
+  gap:16px;
+  overflow-x:auto;
+  padding:10px 8px;
+}
+
+/* Engine block at the far left */
+.engine{
+  flex:0 0 120px;
+  min-width:120px;
+  height:160px;
+  background:#183a8a;
+  color:#fff;
+  border-radius:14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:800;
+  letter-spacing:0.5px;
+  box-shadow:0 6px 16px rgba(13,38,59,0.10) inset;
+}
+
+/* Coach card */
+.coach{
+  flex:0 0 auto;
+  min-width:140px;
+  padding:0;
+  border-radius:14px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+/* Colored bar on top of coach */
+.coach .bar{
+  height:8px;
+  width:100%;
+  border-radius:8px;
+  margin:0 10px 10px;
+  background:#e5e7eb;
+}
+
+/* Status colors */
+.status-empty .bar{ background:#22c55e; }    /* green */
+.status-moderate .bar{ background:#f59e0b; } /* yellow */
+.status-crowded .bar{ background:#ef4444; }  /* red */
+.status-unknown .bar{ background:#6b7280; }  /* gray */
+
+/* Inner white card for coach details */
+.coach .body{
+  background:#fff;
+  border-radius:14px;
+  box-shadow:0 6px 16px rgba(13,38,59,0.06);
+  padding:14px 12px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+}
+
+/* Coach badge (C-1, C-2, …) */
+.coach .badge{
+  font-size:18px;
+  font-weight:800;
+  color:#111827;
+}
+
+/* Status text (Safe / Moderate / Overcrowded) */
+.coach .statusText{
+  margin-top:6px;
+  font-weight:600;
+  color:#4b5563;
+}
+
+/* Occupancy label */
+.coach .label{
+  color:#6b7280;
+  font-size:12px;
+  margin-top:8px;
+  text-align:center;
+}
+
+/* Nicer scrollbar */
+.coach-row::-webkit-scrollbar{ height:10px }
+.coach-row::-webkit-scrollbar-track{
+  background:#e5e7eb; border-radius:999px;
+}
+.coach-row::-webkit-scrollbar-thumb{
+  background:#111827; border-radius:999px;
+}

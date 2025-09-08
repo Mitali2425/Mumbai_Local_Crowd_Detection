@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Mumbai Local Crowd Detection</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="title">🚉 Mumbai Local — Crowd Monitor</div>
+    <div class="live">● Live</div>
+  </header>
+
+  <main>
+    <!-- Search Section -->
+    <section class="search">
+      <input id="source" placeholder="Source (e.g. CST)" />
+      <input id="destination" placeholder="Destination (e.g. Panvel)" />
+      <button id="searchBtn">Search</button>
+    </section>
+
+    <!-- Train List Section -->
+    <section id="trainList" class="train-list"></section>
+
+    <!-- Crowd Display Section -->
+    <section id="crowdDisplay" class="crowd-display"></section>
+
+    <!-- Controls Section (only visible after selecting train) -->
+    <section id="controls" class="controls" style="display:none;">
+      <button id="refreshBtn">🔄 Refresh Results</button>
+      <label style="margin-left:10px;">
+        <input type="checkbox" id="autoRefreshToggle"> Auto-refresh
+      </label>
+      <label style="margin-left:8px; color:#555; font-size:13px;">
+        Interval:
+        <select id="autoInterval">
+          <option value="30000">30s</option>
+          <option value="60000" selected>60s</option>
+          <option value="120000">2m</option>
+        </select>
+      </label>
+    </section>
+  </main>
+
+  <!-- Coach Template (for rendering train coaches dynamically) -->
+  <template id="coachTemplate">
+    <div class="coach" role="group" aria-roledescription="coach">
+      <div class="bar"></div>
+      <div class="body">
+        <span class="badge">C-##</span>
+        <span class="statusText">—</span>
+      </div>
+      <div class="label">Occupancy: <span class="occ">—</span></div>
+    </div>
+  </template>
+
+  <script src="/script.js"></script>
+</body>
+</html>
